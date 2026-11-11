@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="janken">
+        <h1>じゃんけん</h1>
+    </header>
+    
+    <section class="janken-box">
+        <button class="aa">グー</button>
+        <button class="bb">チョキ</button>
+        <button class="cc">パー</button>
+        <button class="reset">最初に戻る</button>
+    </section>
+    
+    <section class="kumamon">
+        <img src="./img/kumamon.webp" alt="くまもん">
+        <h1 class="a">何を出そうかな？</h1>
+    </section>
+
+    <section class="bgm">
+        <audio id="bgm" src="./sound/Free-Your-Mind---Loop_AdobeStock_676139738.wav" loop></audio>
+    </section>
+
+
+    <footer class="result">
+        <h1 class="b"></h1>
+        <h1 class="c"></h1>
+        <h1 class="d"></h1>
+    </footer>
+   
+
+    <!-- 必ずjQueryが先です！！！ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/janken.js"></script>
+
+</body>
+</html>
