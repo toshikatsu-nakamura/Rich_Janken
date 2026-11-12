@@ -5,7 +5,7 @@
 - くまもんとじゃんけんができるアプリです
 
 ## ③アプリのデプロイURL
-- https://github.com/toshikatsu-nakamura/Rich_Janken/deployments/github-pages
+- https://toshikatsu-nakamura.github.io/Rich_Janken/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 今回なし
