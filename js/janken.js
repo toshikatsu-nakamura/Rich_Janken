@@ -2,8 +2,17 @@
 let count = 0;
 
 // BGMを設定
-$("#bgm")[0].volume = 0.3;
-$("#bgm")[0].play();
+const bgm = $("#bgm")[0];
+bgm.volume = 0.3;
+
+// グー・チョキ・パーをクリックしたらBGM再生
+$(".aa, .bb, .cc").on("click", function () {
+  if (bgm.paused) {
+    bgm.play().catch(function(error) {
+      console.log("BGM再生エラー:", error);
+    });
+  }
+});
 
 // グーボタン
 $(".aa").on("click", function () {
